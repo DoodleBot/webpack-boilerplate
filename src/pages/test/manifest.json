@@ -1,0 +1,7 @@
+{
+    "manifest": [
+        "./src/components/header/data.json",
+        "./src/components/nav/data.json",
+        "./src/components/footer/data.json"
+    ]
+}

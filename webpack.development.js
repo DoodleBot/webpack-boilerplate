@@ -21,6 +21,6 @@ module.exports = function(env = {}) {
             hot: true,
             // stats: 'verbose',
             port: 8000
-        },
+        }
     });
 }

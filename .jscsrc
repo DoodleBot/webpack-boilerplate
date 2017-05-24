@@ -1,0 +1,132 @@
+{
+    "excludeFiles": [
+        ".tmp/**",
+        ".dist/**",
+        "dist/**",
+        ".docs/**",
+        "node_modules/**",
+        "vendor/**"
+    ],
+    "disallowEmptyBlocks": true,
+    "disallowKeywordsOnNewLine": ["else"],
+    "disallowKeywords": ["with"],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineStrings": true,
+    //"disallowMultipleVarDecl": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowOperatorBeforeLineBreak": ["."],
+    //"disallowPaddingNewlinesInBlocks": true
+    //"disallowQuotedKeysInObjects": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+    "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+    "disallowSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInsideArrayBrackets": "all",
+    "disallowSpacesInsideBrackets": true,
+    "disallowSpacesInsideObjectBrackets": "all",
+    "disallowSpacesInsideParentheses": true,
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": true,
+    "maximumLineLength": {
+        "value": 120,
+        "tabSize": 4,
+        "allowComments": true,
+        "allowUrlComments": true,
+        "allowRegex": true
+    },
+    "requireBlocksOnNewline": true,
+    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "requireCapitalizedConstructors": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "requireDotNotation": "except_snake_case",
+    "requireLineBreakAfterVariableAssignment": true,
+    "requireLineFeedAtFileEnd": true,
+    //"requireMultipleVarDecl": "onevar", // not sure how to handle this one yet since we said we could have multiple var if constants being used.
+    "requireOperatorBeforeLineBreak": true,
+    "requirePaddingNewlinesBeforeKeywords": [
+        "do",
+        "for",
+        "if",
+        "switch",
+        "try",
+        "void",
+        "while",
+        "with",
+        "return",
+        "function"
+    ],
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterKeywords": [
+        "do",
+        "for",
+        "if",
+        "else",
+        "switch",
+        "case",
+        "try",
+        "catch",
+        "void",
+        "while",
+        "with",
+        "return",
+        "typeof"
+    ],
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpaceBeforeKeywords": [
+        "else",
+        "catch",
+        "while"
+    ],
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    },
+    "requireSpacesInForStatement": true,
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunction": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInNamedFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "safeContextKeyword": ["self"],
+    //"validateIndentation": 4, // can't get this to work correctly
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": true
+}

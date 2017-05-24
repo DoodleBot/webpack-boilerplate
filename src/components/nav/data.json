@@ -1,0 +1,18 @@
+{
+    "nav": {
+        "links": [
+            {
+                "href": "#",
+                "label": "Link A"
+            },
+            {
+                "href": "#",
+                "label": "Link B"
+            },
+            {
+                "href": "#",
+                "label": "Link C"
+            }
+        ]
+    }
+}

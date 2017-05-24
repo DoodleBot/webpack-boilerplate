@@ -1,0 +1,36 @@
+{
+    "bitwise": true,        // Prohibit bitwise operators (&, |, ^, etc.).
+    "curly": true,          // Require {} for every new block or scope.
+    "eqeqeq": true,         // Require triple equals i.e. `===`.
+    "es3": true,            // adhere to ECMAScript 3 specification, use for Internet Explorer 6/7/8/9
+    "es5": true,            // This option enables syntax first defined in the ECMAScript 5.1 specification.
+    "forin": false,          // Tolerate `for in` loops without `hasOwnPrototype`.
+    "freeze": true,         // prohibits overwriting prototypes of native objects such as Array, Date
+    "latedef": "nofunc",    // Prohibit variable use before definition. Setting this option to "nofunc" will allow function declarations to be ignored.
+    "noarg": true,          // Prohibits the use of arguments.caller and arguments.callee
+    "plusplus": false,       // Prohibit use of `++` & `--`.
+    "regexp": true,         // Prohibit `.` and `[^...]` in regular expressions.
+    "undef": true,          // Require all non-global variables be declared before they are used.
+    "unused": true,         // warns when you define and never use your variables
+    "trailing": true,       // Prohibit trailing whitespaces.
+
+    "debug": true,          // Allow debugger statements e.g. browser breakpoints.
+    "expr": true,           // suppresses warnings about the use of expressions where normally you would expect to see assignments or function calls
+    "smarttabs": true,      // suppresses warnings about mixed tabs and spaces when the latter are used for alignmnent only
+
+    "browser": true,        // Standard browser globals e.g. `window`, `document`.
+    "devel": true,          // Allow development statements e.g. `console.log();`.
+    "jasmine": true,        // This option defines globals exposed by the Jasmine unit testing framework.
+    "jquery": true,         // Enable globals exposed by jQuery JavaScript library.
+    "mocha": true,          // This option defines globals exposed by the "BDD" and "TDD" UIs of the Mocha unit testing framework.
+    "node": true,           // Enable globals available when code is running inside of the NodeJS runtime environment.
+    "nonstandard": true,    // Define non-standard but widely adopted globals such as escape and unescape.
+
+    "globals": {
+        "define": false,
+        "require": true,
+        "requirejs": false,
+        "Modernizr": false,
+        "_": false
+    }
+}

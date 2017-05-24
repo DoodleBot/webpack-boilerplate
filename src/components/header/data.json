@@ -1,0 +1,29 @@
+{
+    "header": {
+        "menu": {
+            "class": "menu",
+            "label": "Menu",
+            "href": "#",
+            "svg": {
+                "class": "svg-hamburger",
+                "xlink": "#svg-hamburger"
+            }
+        },
+        "logo": {
+            "class": "logo",
+            "svg": {
+                "class": "svg-logo",
+                "xlink": "#svg-logo"
+            }
+        },
+        "search": {
+            "class": "search",
+            "label": "Search",
+            "href": "#",
+            "svg": {
+                "class": "svg-search-button",
+                "xlink": "#svg-search-button"
+            }
+        }
+    }
+}

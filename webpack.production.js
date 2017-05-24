@@ -15,6 +15,12 @@ module.exports = function(env = {}) {
                 NODE_ENV: 'production',
                 DEBUG: 'false'
             })
-        ]
+        ],
+        externals: [function(context, request, callback) {
+            if (/\.(woff2?|ttf|hbs|handlebars|html?)$/.test(request)) {
+                return callback(null, 'commonjs ' + request);
+            }
+            callback();
+        }]
     });
 }

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {{> meta}}
+    <title>Page Title</title>
+</head>
+<body>
+    {{#with htmlWebpackPlugin.options.data}}
+    {{> header/partial header}}
+    {{> nav/partial nav}}
+    <main>
+        {{> test test}}
+    </main>
+    {{> footer/partial footer}}
+    {{/with}}
+</body>
+</html>
