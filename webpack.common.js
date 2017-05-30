@@ -9,7 +9,8 @@ module.exports = function(env = {}) {
     // generated array of html-webpack-plugin to be concat with rest of plugins
     var pageHtml = batchHbs({
         path: '/src/pages/',                        // glob of files to return as plugins
-        manifest: 'manifest.json',                  // relative to the path
+        manifest: 'manifest.json',                  // array of json files to use for template context
+        templateData: 'page-template-data.json',    // template data to be applied to all pages in this batch
         destination: '.'                            // output location
     });
 

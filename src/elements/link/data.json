@@ -1,0 +1,13 @@
+{
+    "links": [
+        {
+            "label": "default link",
+            "href": "#"
+        },
+        {
+            "class": "btn",
+            "label": "button style",
+            "href": "#"
+        }
+    ]
+}
