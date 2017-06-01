@@ -1,3 +1,10 @@
 <header>
-    <div>{{menu.label}}</div>
+    <h2>Header Component</h2>
+    <p>{{text}}</p>
+    {{#with menu}}
+    <div class="{{class}}"><a href="{{href}}">{{label}}</div>
+    {{/with}}
+    {{#with search}}
+    <div class="{{class}}"><a href="{{href}}">{{label}}</div>
+    {{/with}}
 </header>

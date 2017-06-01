@@ -6,10 +6,13 @@
 </head>
 <body>
     {{#with htmlWebpackPlugin.options.data}}
+    <h1>Test Page</h1>
     {{> header/partial header}}
     {{> nav/partial nav}}
     <main>
         {{> test test}}
+        {{> hero/partial hero-test}}
+        {{> tabs/partial tab-test}}
     </main>
     {{> footer/partial footer}}
     {{/with}}

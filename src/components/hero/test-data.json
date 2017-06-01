@@ -1,0 +1,12 @@
+{
+    "hero-test": {
+        "component": "hero",
+        "text": "hero content provided by ./src/components/hero/test-data.json",
+        "image": {
+            "src": "my-test-image.jpg",
+            "alt": "test alt text"
+        },
+        "heading": "Test Heading Text",
+        "subheading": "Test Subheading Text"
+    }
+}

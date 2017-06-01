@@ -1,0 +1,20 @@
+{
+    "tab-test": {
+        "component": "tabs",
+        "text": "tabs content provided by ./src/components/tabs/test-data.json",
+        "tabs": [
+            {
+                "href": "#",
+                "label": "test specific tab A"
+            },
+            {
+                "href": "#",
+                "label": "test specific tab B"
+            },
+            {
+                "href": "#",
+                "label": "test specific tab C"
+            }
+        ]
+    }
+}

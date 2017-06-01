@@ -1,5 +1,12 @@
 {
     "footer": {
-        "import": "elements/link/data.json"
+        "text": "footer content provided by ./src/components/footer/data.json.<br>links are imported from ./src/elements/link/data.json",
+        "import": "./src/elements/link/data.json",
+        "links": [
+            {
+                "label": "Link to be overwritten",
+                "href": "#"
+            }
+        ]
     }
 }

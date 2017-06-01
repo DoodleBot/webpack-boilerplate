@@ -1,0 +1,20 @@
+{
+    "tab-example": {
+        "component": "tabs",
+        "text": "tabs content provided by ./src/components/tabs/data.json",
+        "tabs": [
+            {
+                "href": "#",
+                "label": "tab A"
+            },
+            {
+                "href": "#",
+                "label": "tab B"
+            },
+            {
+                "href": "#",
+                "label": "tab C"
+            }
+        ]
+    }
+}

@@ -6,10 +6,14 @@
 </head>
 <body>
     {{#with htmlWebpackPlugin.options.data}}
+    <h1>No Data Page</h1>
+    <p>no data should be able to be loaded on this page.</p>
     {{> header/partial header}}
     {{> nav/partial nav}}
     <main>
         {{> test test}}
+        {{> hero/partial hero-test}}
+        {{> tabs/partial tab-test}}
     </main>
     {{> footer/partial footer}}
     {{/with}}

@@ -1,5 +1,9 @@
 {
     "test": {
-        "label": "Test"
-    }
+        "text": "test page content. provided by ./src/pages/test/data.json"
+    },
+    "imports": [
+        "./src/components/hero/test-data.json",
+        "./src/components/tabs/test-data.json"
+    ]
 }

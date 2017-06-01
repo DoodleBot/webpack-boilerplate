@@ -1,5 +1,6 @@
 {
     "header": {
+        "text": "header content provided by ./src/components/header/data.json",
         "menu": {
             "class": "menu",
             "label": "Menu",

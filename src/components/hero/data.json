@@ -1,0 +1,12 @@
+{
+    "hero-example": {
+        "component": "hero",
+        "text": "hero content provided by ./src/components/hero/data.json",
+        "image": {
+            "src": "my-image.jpg",
+            "alt": "alt text"
+        },
+        "heading": "Heading Text",
+        "subheading": "Subheading Text"
+    }
+}
